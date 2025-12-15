@@ -1,5 +1,5 @@
 {
-  "extends": "@synthetixio/synpress-tsconfig/base.json",
+  "extends": "@w84april/synpress-tsconfig/base.json",
   "compilerOptions": {
     "rootDir": ".",
     "esModuleInterop": true,

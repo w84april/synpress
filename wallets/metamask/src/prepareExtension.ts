@@ -1,5 +1,5 @@
 import path from 'node:path'
-import { downloadFile, ensureCacheDirExists, unzipArchive } from '@synthetixio/synpress-cache'
+import { downloadFile, ensureCacheDirExists, unzipArchive } from '@w84april/synpress-cache'
 import fs from 'fs-extra'
 
 export const DEFAULT_METAMASK_VERSION = '13.8.0'

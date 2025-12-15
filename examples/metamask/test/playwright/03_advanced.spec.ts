@@ -1,6 +1,6 @@
 import { test as advancedFixtures } from './advancedFixtures'
 
-import { testWithSynpress } from '@synthetixio/synpress'
+import { testWithSynpress } from '@w84april/synpress'
 
 const test = testWithSynpress(advancedFixtures)
 

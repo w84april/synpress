@@ -1,6 +1,6 @@
 {
   "name": "@examples/ethereum-wallet-mock",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "private": true,
   "homepage": "https://synpress.io",
   "repository": {
@@ -17,13 +17,13 @@
     "test:cypress:headful": "cypress run --browser chrome --headed"
   },
   "dependencies": {
-    "@synthetixio/synpress": "workspace:*",
+    "@w84april/synpress": "workspace:*",
     "dotenv": "16.4.2"
   },
   "devDependencies": {
     "@metamask/test-dapp": "8.1.0",
-    "@synthetixio/synpress-tsconfig": "0.0.13",
     "@types/node": "20.11.17",
+    "@w84april/synpress-tsconfig": "workspace:*",
     "cypress": "13.15.1",
     "serve": "14.2.1",
     "typescript": "5.3.3"

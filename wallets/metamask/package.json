@@ -1,6 +1,6 @@
 {
-  "name": "@synthetixio/synpress-metamask",
-  "version": "0.0.13",
+  "name": "@w84april/synpress-metamask",
+  "version": "0.0.14",
   "homepage": "https://synpress.io",
   "repository": {
     "type": "git",
@@ -48,17 +48,17 @@
     "types:check": "tsc --noEmit"
   },
   "dependencies": {
-    "@synthetixio/synpress-cache": "workspace:*",
-    "@synthetixio/synpress-core": "workspace:*",
     "@viem/anvil": "0.0.7",
+    "@w84april/synpress-cache": "workspace:*",
+    "@w84april/synpress-core": "workspace:*",
     "fs-extra": "11.2.0",
     "zod": "3.22.4"
   },
   "devDependencies": {
-    "@synthetixio/synpress-tsconfig": "0.0.13",
     "@types/fs-extra": "11.0.4",
     "@types/node": "20.11.17",
     "@vitest/coverage-v8": "1.2.2",
+    "@w84april/synpress-tsconfig": "workspace:*",
     "cypress": "13.15.1",
     "rimraf": "5.0.5",
     "tsup": "8.0.2",

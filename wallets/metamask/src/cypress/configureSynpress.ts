@@ -1,5 +1,5 @@
 import type { BrowserContext, Page } from '@playwright/test'
-import { ensureRdpPort } from '@synthetixio/synpress-core'
+import { ensureRdpPort } from '@w84april/synpress-core'
 import type { CreateAnvilOptions } from '@viem/anvil'
 import type { SettingsSidebarMenus } from '../selectors/pages/HomePage/settings'
 import type { GasSettings } from '../type/GasSettings'

@@ -1,5 +1,17 @@
 # @synthetixio/synpress
 
+## 4.1.2
+
+### Patch Changes
+
+- Fix workspace dependencies for npm publishing
+- Updated dependencies
+  - @w84april/synpress-cache@0.0.14
+  - @w84april/synpress-core@0.0.14
+  - @w84april/ethereum-wallet-mock@0.0.14
+  - @w84april/synpress-metamask@0.0.14
+  - @w84april/synpress-phantom@0.0.14
+
 ## 4.1.1
 
 ### Patch Changes

@@ -1,5 +1,5 @@
-import { testWithSynpress } from '@synthetixio/synpress'
-import { MetaMask, metaMaskFixtures } from '@synthetixio/synpress/playwright'
+import { testWithSynpress } from '@w84april/synpress'
+import { MetaMask, metaMaskFixtures } from '@w84april/synpress/playwright'
 import basicSetup from '../wallet-setup/basic.setup'
 
 // Set up the test environment with Synpress and MetaMask fixtures, using the basic setup configuration

@@ -1,5 +1,5 @@
-import { defineWalletSetup } from '@synthetixio/synpress'
-import { MetaMask, getExtensionId } from '@synthetixio/synpress/playwright'
+import { defineWalletSetup } from '@w84april/synpress'
+import { MetaMask, getExtensionId } from '@w84april/synpress/playwright'
 import 'dotenv/config'
 
 const SEED_PHRASE = process.env.SEED_PHRASE

@@ -1,6 +1,6 @@
 {
-  "name": "@synthetixio/synpress",
-  "version": "4.1.1",
+  "name": "@w84april/synpress",
+  "version": "4.1.2",
   "homepage": "https://synpress.io",
   "repository": {
     "type": "git",
@@ -45,15 +45,15 @@
     "types:check": "tsc --noEmit"
   },
   "dependencies": {
-    "@synthetixio/ethereum-wallet-mock": "workspace:*",
-    "@synthetixio/synpress-cache": "workspace:*",
-    "@synthetixio/synpress-core": "workspace:*",
-    "@synthetixio/synpress-metamask": "workspace:*",
-    "@synthetixio/synpress-phantom": "workspace:*"
+    "@w84april/ethereum-wallet-mock": "workspace:*",
+    "@w84april/synpress-cache": "workspace:*",
+    "@w84april/synpress-core": "workspace:*",
+    "@w84april/synpress-metamask": "workspace:*",
+    "@w84april/synpress-phantom": "workspace:*"
   },
   "devDependencies": {
-    "@synthetixio/synpress-tsconfig": "0.0.13",
     "@types/node": "20.11.17",
+    "@w84april/synpress-tsconfig": "workspace:*",
     "rimraf": "5.0.5",
     "tsup": "8.0.2",
     "typescript": "5.3.3"

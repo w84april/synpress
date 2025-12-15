@@ -1,5 +1,5 @@
-import { defineWalletSetup } from '@synthetixio/synpress'
-import { MetaMask } from '@synthetixio/synpress/playwright'
+import { defineWalletSetup } from '@w84april/synpress'
+import { MetaMask } from '@w84april/synpress/playwright'
 
 const SEED_PHRASE = 'test test test test test test test test test test test junk'
 const PASSWORD = 'SynpressIsAwesomeNow!!!'

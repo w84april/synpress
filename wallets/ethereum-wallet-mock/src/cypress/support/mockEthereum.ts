@@ -19,7 +19,7 @@
  * @example
  * ```typescript
  * // In your Cypress support file
- * import { mockEthereum } from '@synthetixio/synpress';
+ * import { mockEthereum } from '@w84april/synpress';
  *
  * mockEthereum();
  * ```

@@ -38,7 +38,7 @@ importers:
 
   examples/ethereum-wallet-mock:
     dependencies:
-      '@synthetixio/synpress':
+      '@w84april/synpress':
         specifier: workspace:*
         version: link:../../release
       dotenv:
@@ -48,12 +48,12 @@ importers:
       '@metamask/test-dapp':
         specifier: 8.1.0
         version: 8.1.0
-      '@synthetixio/synpress-tsconfig':
-        specifier: 0.0.13
-        version: 0.0.13
       '@types/node':
         specifier: 20.11.17
         version: 20.11.17
+      '@w84april/synpress-tsconfig':
+        specifier: workspace:*
+        version: link:../../packages/tsconfig
       cypress:
         specifier: 13.15.1
         version: 13.15.1
@@ -69,7 +69,7 @@ importers:
       '@playwright/test':
         specifier: 1.48.2
         version: 1.48.2
-      '@synthetixio/synpress':
+      '@w84april/synpress':
         specifier: workspace:*
         version: link:../../release
       dotenv:
@@ -79,12 +79,12 @@ importers:
       '@metamask/test-dapp':
         specifier: 8.1.0
         version: 8.1.0
-      '@synthetixio/synpress-tsconfig':
-        specifier: 0.0.13
-        version: 0.0.13
       '@types/node':
         specifier: 20.11.17
         version: 20.11.17
+      '@w84april/synpress-tsconfig':
+        specifier: workspace:*
+        version: link:../../packages/tsconfig
       cypress:
         specifier: 13.15.1
         version: 13.15.1
@@ -137,9 +137,6 @@ importers:
         specifier: 3.22.4
         version: 3.22.4
     devDependencies:
-      '@synthetixio/synpress-tsconfig':
-        specifier: 0.0.13
-        version: 0.0.13
       '@types/archiver':
         specifier: 6.0.2
         version: 6.0.2
@@ -161,6 +158,9 @@ importers:
       '@vitest/coverage-v8':
         specifier: 1.2.2
         version: 1.2.2(vitest@1.2.2(@types/node@20.11.17))
+      '@w84april/synpress-tsconfig':
+        specifier: workspace:*
+        version: link:../tsconfig
       archiver:
         specifier: 6.0.1
         version: 6.0.1
@@ -186,12 +186,12 @@ importers:
         specifier: '*'
         version: 1.48.2
     devDependencies:
-      '@synthetixio/synpress-tsconfig':
-        specifier: 0.0.13
-        version: 0.0.13
       '@types/node':
         specifier: 20.11.17
         version: 20.11.17
+      '@w84april/synpress-tsconfig':
+        specifier: workspace:*
+        version: link:../tsconfig
       rimraf:
         specifier: 5.0.5
         version: 5.0.5
@@ -209,28 +209,28 @@ importers:
       '@playwright/test':
         specifier: '*'
         version: 1.48.2
-      '@synthetixio/ethereum-wallet-mock':
+      '@w84april/ethereum-wallet-mock':
         specifier: workspace:*
         version: link:../wallets/ethereum-wallet-mock
-      '@synthetixio/synpress-cache':
+      '@w84april/synpress-cache':
         specifier: workspace:*
         version: link:../packages/cache
-      '@synthetixio/synpress-core':
+      '@w84april/synpress-core':
         specifier: workspace:*
         version: link:../packages/core
-      '@synthetixio/synpress-metamask':
+      '@w84april/synpress-metamask':
         specifier: workspace:*
         version: link:../wallets/metamask
-      '@synthetixio/synpress-phantom':
+      '@w84april/synpress-phantom':
         specifier: workspace:*
         version: link:../wallets/phantom
     devDependencies:
-      '@synthetixio/synpress-tsconfig':
-        specifier: 0.0.13
-        version: 0.0.13
       '@types/node':
         specifier: 20.11.17
         version: 20.11.17
+      '@w84april/synpress-tsconfig':
+        specifier: workspace:*
+        version: link:../packages/tsconfig
       rimraf:
         specifier: 5.0.5
         version: 5.0.5
@@ -277,22 +277,22 @@ importers:
       '@playwright/test':
         specifier: '*'
         version: 1.48.2
-      '@synthetixio/synpress-core':
-        specifier: 0.0.13
-        version: 0.0.13(@playwright/test@1.48.2)
+      '@w84april/synpress-core':
+        specifier: workspace:*
+        version: link:../../packages/core
       viem:
         specifier: 2.9.9
         version: 2.9.9(typescript@5.3.3)(zod@3.22.4)
     devDependencies:
-      '@synthetixio/synpress-tsconfig':
-        specifier: 0.0.13
-        version: 0.0.13
       '@types/node':
         specifier: 20.11.17
         version: 20.11.17
       '@vitest/coverage-v8':
         specifier: 1.2.2
         version: 1.2.2(vitest@1.2.2(@types/node@20.11.17))
+      '@w84april/synpress-tsconfig':
+        specifier: workspace:*
+        version: link:../../packages/tsconfig
       cypress:
         specifier: 13.15.1
         version: 13.15.1
@@ -311,15 +311,15 @@ importers:
       '@playwright/test':
         specifier: '*'
         version: 1.48.2
-      '@synthetixio/synpress-cache':
-        specifier: workspace:*
-        version: link:../../packages/cache
-      '@synthetixio/synpress-core':
-        specifier: workspace:*
-        version: link:../../packages/core
       '@viem/anvil':
         specifier: 0.0.7
         version: 0.0.7
+      '@w84april/synpress-cache':
+        specifier: workspace:*
+        version: link:../../packages/cache
+      '@w84april/synpress-core':
+        specifier: workspace:*
+        version: link:../../packages/core
       fs-extra:
         specifier: 11.2.0
         version: 11.2.0
@@ -327,9 +327,6 @@ importers:
         specifier: 3.22.4
         version: 3.22.4
     devDependencies:
-      '@synthetixio/synpress-tsconfig':
-        specifier: 0.0.13
-        version: 0.0.13
       '@types/fs-extra':
         specifier: 11.0.4
         version: 11.0.4
@@ -339,6 +336,9 @@ importers:
       '@vitest/coverage-v8':
         specifier: 1.2.2
         version: 1.2.2(vitest@1.2.2(@types/node@20.11.17))
+      '@w84april/synpress-tsconfig':
+        specifier: workspace:*
+        version: link:../../packages/tsconfig
       cypress:
         specifier: 13.15.1
         version: 13.15.1
@@ -360,15 +360,15 @@ importers:
       '@playwright/test':
         specifier: 1.48.2
         version: 1.48.2
-      '@synthetixio/synpress-cache':
-        specifier: workspace:*
-        version: link:../../packages/cache
-      '@synthetixio/synpress-core':
-        specifier: workspace:*
-        version: link:../../packages/core
       '@viem/anvil':
         specifier: 0.0.7
         version: 0.0.7
+      '@w84april/synpress-cache':
+        specifier: workspace:*
+        version: link:../../packages/cache
+      '@w84april/synpress-core':
+        specifier: workspace:*
+        version: link:../../packages/core
       fs-extra:
         specifier: 11.2.0
         version: 11.2.0
@@ -376,9 +376,6 @@ importers:
         specifier: 3.22.4
         version: 3.22.4
     devDependencies:
-      '@synthetixio/synpress-tsconfig':
-        specifier: 0.0.13
-        version: 0.0.13
       '@types/fs-extra':
         specifier: 11.0.4
         version: 11.0.4
@@ -388,6 +385,9 @@ importers:
       '@vitest/coverage-v8':
         specifier: 1.2.2
         version: 1.2.2(vitest@1.2.2(@types/node@20.11.17))
+      '@w84april/synpress-tsconfig':
+        specifier: workspace:*
+        version: link:../../packages/tsconfig
       rimraf:
         specifier: 5.0.5
         version: 5.0.5
@@ -1551,14 +1551,6 @@ packages:
   '@sindresorhus/is@5.6.0':
     resolution: {integrity: sha512-TV7t8GKYaJWsn00tFDqBw8+Uqmr8A0fRU1tvTQhyZzGv0sJCGRQL3JGMI3ucuKo3XIZdUP+Lx7/gh2t3lewy7g==}
     engines: {node: '>=14.16'}
-
-  '@synthetixio/synpress-core@0.0.13':
-    resolution: {integrity: sha512-m0UPNN0s+o3KL0eGpilkna3wNYFHN3v49WsWKDRn/qslzAXJXgf26/w1f00z3gbcOjUY97i2FaieRLCsjF4sOg==}
-    peerDependencies:
-      '@playwright/test': '*'
-
-  '@synthetixio/synpress-tsconfig@0.0.13':
-    resolution: {integrity: sha512-NIXP2JNpI6TP+DG4RubJiaG+L3AHWYnaPIttuUkQOwOCCrG1bTMgTbjbq5MsyEPY4qxE3+vY28sGWD8GueYx8g==}
 
   '@szmarczak/http-timer@5.0.1':
     resolution: {integrity: sha512-+PmQX0PiAYPMeVYe237LJAYvOMYW1j2rH5YROyS3b4CTVJum34HfRvKvAzozHAQG0TnHNdUfY9nCeUyRAs//cw==}
@@ -6253,12 +6245,6 @@ snapshots:
   '@sinclair/typebox@0.27.8': {}
 
   '@sindresorhus/is@5.6.0': {}
-
-  '@synthetixio/synpress-core@0.0.13(@playwright/test@1.48.2)':
-    dependencies:
-      '@playwright/test': 1.48.2
-
-  '@synthetixio/synpress-tsconfig@0.0.13': {}
 
   '@szmarczak/http-timer@5.0.1':
     dependencies:

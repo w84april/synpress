@@ -6,7 +6,7 @@ import {
   createTempContextDir,
   defineWalletSetup,
   removeTempContextDir
-} from '@synthetixio/synpress-cache'
+} from '@w84april/synpress-cache'
 import { type Anvil, type CreateAnvilOptions, createPool } from '@viem/anvil'
 import fs from 'fs-extra'
 import { prepareExtension } from '../../prepareExtension'

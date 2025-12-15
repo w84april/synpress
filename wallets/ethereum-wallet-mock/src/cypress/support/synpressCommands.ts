@@ -81,7 +81,7 @@ declare global {
  *
  * @example
  * ```typescript
- * import { synpressCommandsForEthereumWalletMock } from '@synthetixio/synpress';
+ * import { synpressCommandsForEthereumWalletMock } from '@w84april/synpress';
  *
  * synpressCommandsForEthereumWalletMock();
  * ```

@@ -1,4 +1,4 @@
-import { configureSynpressForEthereumWalletMock } from '@synthetixio/synpress/cypress'
+import { configureSynpressForEthereumWalletMock } from '@w84april/synpress/cypress'
 import { defineConfig } from 'cypress'
 
 export default defineConfig({

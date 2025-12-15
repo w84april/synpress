@@ -1,5 +1,11 @@
 # @synthetixio/synpress-tsconfig
 
+## 0.0.14
+
+### Patch Changes
+
+- Fix workspace dependencies for npm publishing
+
 ## 0.0.13
 
 ### Patch Changes

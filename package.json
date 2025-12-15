@@ -9,8 +9,8 @@
   "license": "MIT",
   "scripts": {
     "build": "turbo build",
-    "build:cache:metamask": "turbo build:cache --filter=@synthetixio/synpress-metamask",
-    "build:cache:phantom": "turbo build:cache --filter=@synthetixio/synpress-phantom",
+    "build:cache:metamask": "turbo build:cache --filter=@w84april/synpress-metamask",
+    "build:cache:phantom": "turbo build:cache --filter=@w84april/synpress-phantom",
     "format": "biome format . --write",
     "format:check": "biome format . --error-on-warnings",
     "preinstall": "npx only-allow pnpm",
@@ -22,10 +22,10 @@
     "sort-package-json": "sort-package-json 'package.json' '{packages,wallets,examples}/*/package.json'",
     "sort-package-json:check": "sort-package-json 'package.json' '{packages,wallets,examples}/*/package.json' --check",
     "test": "turbo test",
-    "test:playwright:headful": "turbo test:playwright:headful --filter=@synthetixio/synpress-metamask --filter=@synthetixio/ethereum-wallet-mock --filter=@synthetixio/synpress-phantom",
-    "test:playwright:headless": "turbo test:playwright:headless --filter=@synthetixio/synpress-metamask --filter=@synthetixio/ethereum-wallet-mock --filter=@synthetixio/synpress-phantom",
-    "test:playwright:phantom:headful": "turbo test:playwright:headful --filter=@synthetixio/synpress-phantom",
-    "test:playwright:wallet-mock-and-metamask:headful": "turbo test:playwright:headful --filter=@synthetixio/synpress-metamask --filter=@synthetixio/ethereum-wallet-mock",
+    "test:playwright:headful": "turbo test:playwright:headful --filter=@w84april/synpress-metamask --filter=@w84april/ethereum-wallet-mock --filter=@w84april/synpress-phantom",
+    "test:playwright:headless": "turbo test:playwright:headless --filter=@w84april/synpress-metamask --filter=@w84april/ethereum-wallet-mock --filter=@w84april/synpress-phantom",
+    "test:playwright:phantom:headful": "turbo test:playwright:headful --filter=@w84april/synpress-phantom",
+    "test:playwright:wallet-mock-and-metamask:headful": "turbo test:playwright:headful --filter=@w84april/synpress-metamask --filter=@w84april/ethereum-wallet-mock",
     "update:deps": "ncu -u -ws --root"
   },
   "lint-staged": {

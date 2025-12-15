@@ -6,7 +6,7 @@ import {
   createTempContextDir,
   defineWalletSetup,
   removeTempContextDir
-} from '@synthetixio/synpress-cache'
+} from '@w84april/synpress-cache'
 import fs from 'fs-extra'
 import { prepareExtensionPhantom } from '../../prepareExtensionPhantom'
 import { Phantom } from '../Phantom'

@@ -1,4 +1,4 @@
-import { testWithSynpress } from '@synthetixio/synpress-core'
+import { testWithSynpress } from '@w84april/synpress-core'
 import { phantomFixtures } from '../../src/playwright'
 import basicSetup from './wallet-setup/basic.setup'
 

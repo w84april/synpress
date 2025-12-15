@@ -1,5 +1,14 @@
 # @synthetixio/synpress-phantom
 
+## 0.0.14
+
+### Patch Changes
+
+- Fix workspace dependencies for npm publishing
+- Updated dependencies
+  - @w84april/synpress-cache@0.0.14
+  - @w84april/synpress-core@0.0.14
+
 ## 0.0.13
 
 ### Patch Changes
