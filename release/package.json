@@ -41,7 +41,7 @@
     "lint": "biome check . --apply",
     "lint:check": "biome check . --verbose",
     "lint:unsafe": "biome check . --apply-unsafe",
-    "prepublishOnly": "cp ../README.md . && pnpm run build",
+    "prepublishOnly": "cp ../README.md . && cd ../packages/cache && pnpm run build && cd ../../release && pnpm run build:dist && pnpm run build:types",
     "types:check": "tsc --noEmit"
   },
   "dependencies": {

@@ -2,7 +2,7 @@
 
 import { cliEntrypoint } from '@w84april/synpress-cache'
 
-cliEntrypoint().catch((err) => {
+cliEntrypoint().catch((err: unknown) => {
   console.log('Aborting...')
 
   if (err instanceof Error) {
