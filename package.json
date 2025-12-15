@@ -1,9 +1,10 @@
 {
+  "name": "@w84april/synpress",
   "private": true,
   "homepage": "https://synpress.io",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Synthetixio/synpress.git"
+    "url": "https://github.com/w84april/synpress.git"
   },
   "license": "MIT",
   "scripts": {
